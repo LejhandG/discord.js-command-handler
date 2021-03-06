@@ -37,6 +37,8 @@ npm start #Indicated in package.json
 #With pm2
 pm2 start index.js --name "MusicBot"
 ```
+### Node Version
+Node JS 12+
 
 ### Command Handler Module
 ```js
