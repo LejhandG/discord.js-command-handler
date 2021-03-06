@@ -36,6 +36,6 @@ if (pull.aliases && Array.isArray(pull.aliases))
     }
   });
   
-//LOG THE TABLE IN THE CONSOLE
+//LOG THE TABLE IN THE CONSOLE IN STRING FORM
 console.log(table.toString());
 };
