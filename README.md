@@ -35,7 +35,7 @@ node index.js
 npm start #Indicated in package.json
 
 #With pm2
-pm2 start index.js --name "MusicBot"
+pm2 start index.js --name "Discord.JS-Command-Handler"
 ```
 ### Node Version
 Node JS 12+
