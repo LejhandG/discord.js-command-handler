@@ -40,9 +40,9 @@ module.exports = {
     //KICK EMBED
     let embed = new discord.MessageEmbed()
     .setTitle("Action: Kick")
-    .setDescription(`Banned ${target} (${target.id})`)
+    .setDescription(`Kicked ${target} (${target.id})`)
     .setColor("#ff2050")
-    .setFooter(`Banned by ${message.author.username}`);
+    .setFooter(`Kicked by ${message.author.username}`);
     
     message.channel.send(embed)
     
