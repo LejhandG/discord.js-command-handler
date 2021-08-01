@@ -47,6 +47,6 @@ module.exports = {
     message.channel.send(embed)
     
     //BAN THE MEMBER
-    target.ban(args[1]);
+    target.ban(target, { reason: args[1] });
   }
 };
